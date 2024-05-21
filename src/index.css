@@ -7,7 +7,84 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+h2 {
+  margin-bottom: 7%;
 }
+
+h5 {
+  margin-top: 1%;
+  margin-bottom: 12% !important;
+}
+
+.hero {
+  min-height: 600px;
+  height: 90vh;
+  background-size: cover;
+  color: white;
+  background-color: #1E212C99;
+  background-repeat: no-repeat;
+}
+
+.hero .container {
+  max-width: 80%;
+  margin-top: 4%;
+}
+
+.hero h1 {
+  font-size: 72px;
+  font-weight: 700;
+  line-height: 93.6px;
+  letter-spacing: 1px;
+  text-align: left;
+  margin-bottom: 10%;
+}
+
+.hero p {
+  margin-left: 15px;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+  text-align: left;
+  margin-bottom: 20%;
+}
+
+.hero .btn {
+  min-width: 300px;
+  width: 26vw;
+  text-transform: uppercase;
+  display: block;
+  padding: 10px 0;
+  border-radius: 4px 0px 0px 0px;
+  border: 3px solid #FFFFFF;
+  background-color: #909495;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+}
+
+.hero__content {
+  max-width: 595px;
+  margin-left: 7%;
+}
+
+.lead {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+  text-align: left !important;
+  width: 81%;
+  margin: 0 auto;
+}
+
+section {
+  margin: 4% 0 8%;
+}
+
+.invalid-feedback {
+  color: red;
+  font-weight: bold;
+}
+
+.button-highlight {
+  transition: all 0.3s ease; /* Добавляем плавный переход */
+}
+
